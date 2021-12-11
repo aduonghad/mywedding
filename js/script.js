@@ -3,28 +3,21 @@ var oneHours = 1000 * 60 * 60;
 var oneMin = 1000 * 60;
 var oneSec = 1000;
 
-var NhaTraiMoi = new Map([
-    ["duyhung", "Bạn Hùng và người bạn đời"],
-    ["lananhat9a", "Lan Anh và người thương"],
-]);
-
-var NhaGaiMoi = new Map([
-    ["duyhung", "Bạn Hùng và người bạn đời"],
-    ["lananhat9a", "Lan Anh và người thương"],
-]);
-
 function start() {
     console.log("start");
 
-    //var myLink = document.getElementById("myLink");
-    //var AttributValue = myLink.getAttribute("href");
-    //var myURL = myLink.URL;
-    // lấy url
-    //console.log(myURL);
+    const urlString = window.location.href
+    const url = new URL(urlString)
+    const param = url.searchParams.get('name')
 
-    // lấy param http://wedding.com?param=huyhung
+    khanhmoi = new Map([
+        ["duyhung", "Bạn Hùng và người bạn đời"],
+    ]);
 
-    // set vào tên mời: NhaTraiMoi.get(duyhung)
+    document.getElementById('content').innerText = khanhmoi.get(param)
+
+    countdowTimeNhaGai();
+    countdowTimeNhaTrai();
 }
 
 start();
