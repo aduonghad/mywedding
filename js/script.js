@@ -6,15 +6,23 @@ var oneSec = 1000;
 function start() {
     console.log("start");
 
-    const urlString = window.location.href
-    const url = new URL(urlString)
-    const param = url.searchParams.get('name')
+    let urlString = window.location.href
+    let url = new URL(urlString)
+    let param = url.searchParams.get('name')
 
     khanhmoi = new Map([
         ["duyhung", "Bạn Hùng và người bạn đời"],
     ]);
 
-    document.getElementById('content').innerText = khanhmoi.get(param)
+    if (param == null) {
+        document.getElementById('content').innerText = "Bạn và người thương"
+    } else {
+        if (khanhmoi.get(param) == null) {
+            document.getElementById('content').innerText = "Bạn và người thương"
+        } else {
+            document.getElementById('content').innerText = khanhmoi.get(param)
+        }
+    }
 
     countdowTimeNhaGai();
     countdowTimeNhaTrai();
