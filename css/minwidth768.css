@@ -1313,7 +1313,7 @@
     #PARAGRAPH3011 {
         width: 406px;
         top: 50px;
-        left: 278.5px;
+        left: 450px;
     }
     #PARAGRAPH3011>.ladi-paragraph {
         color: rgba(194, 194, 194, 0.7);
@@ -1437,14 +1437,12 @@
         fill: rgba(255, 255, 255, 1.0);
     }
     #IMAGE415 {
-        width: 170.576px;
+        width: 110.576px;
         height: 113.595px;
         top: 0px;
         left: 264px;
     }
     #IMAGE415>.ladi-image>.ladi-image-background {
-        width: 178.084px;
-        height: 118.595px;
         top: 0px;
         left: -5px;
         background-image: url("../image/image415.jpg");
@@ -1535,14 +1533,12 @@
         fill: rgba(255, 255, 255, 1.0);
     }
     #IMAGE424 {
-        width: 170.576px;
+        width: 110.576px;
         height: 113.595px;
         top: 0px;
         left: 264px;
     }
     #IMAGE424>.ladi-image>.ladi-image-background {
-        width: 178.084px;
-        height: 118.595px;
         top: 0px;
         left: -5px;
         background-image: url("../image/image424.jpg");
