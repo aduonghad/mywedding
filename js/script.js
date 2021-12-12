@@ -47,7 +47,7 @@ function countdowTimeNhaTrai() {
 
 function countdowTimeNhaGai() {
     let curTime = Date.now();
-    let targetTime = new Date(2021, 11, 17, 16, 30, 0, 0);
+    let targetTime = new Date(2021, 11, 17, 16, 00, 0, 0);
     let timeStemp = targetTime - curTime;
     let day = getAmountDay(timeStemp);
     let hours = getAmountHours(timeStemp - day * oneDay);
