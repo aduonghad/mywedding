@@ -1351,6 +1351,41 @@
     #SHAPE414 svg:last-child {
         fill: rgba(255, 255, 255, 1.0);
     }
+    #HEADLINE418 {
+        width: 160px;
+        top: 35px;
+        left: 30px;
+    }
+    #HEADLINE418>.ladi-headline {
+        text-decoration-line: underline;
+        -webkit-text-decoration-line: underline;
+        color: rgb(239, 203, 132);
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #HEADLINE409 {
+        width: 160px;
+        top: 35px;
+        left: 30px;
+    }
+    #HEADLINE409>.ladi-headline {
+        text-decoration-line: underline;
+        -webkit-text-decoration-line: underline;
+        color: rgb(239, 203, 132);
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #HEADLINE496 {
+        width: 340px;
+        top: 47px;
+        left: 0px;
+    }
+    #HEADLINE496>.ladi-headline {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.6;
+    }
     #IMAGE415 {
         width: 110.576px;
         height: 113.595px;

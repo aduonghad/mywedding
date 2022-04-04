@@ -41,7 +41,7 @@ setInterval(function() {
 
 function countdowTimeNhaTrai() {
     let curTime = Date.now();
-    let targetTime = new Date(2021, 11, 18, 15, 0, 0, 0);
+    let targetTime = new Date(2021, 11, 18, 17, 0, 0, 0);
     let timeStemp = targetTime - curTime;
     let day = getAmountDay(timeStemp);
     let hours = getAmountHours(timeStemp - day * oneDay);
